@@ -1,2 +1,3 @@
-# AgniChain
-AI Agents for Supply Chain Code Security – Cloud Run Hackathon Project
+# Agni Chain
+
+AI Agents for Supply Chain Code Security. See detailed implementation guide.
