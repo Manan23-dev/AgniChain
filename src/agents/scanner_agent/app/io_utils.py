@@ -52,7 +52,7 @@ async def fetch_archive(
         raise ArchiveFetchError(f"Invalid URL: {archive_url}")
     
     # Create temp directory
-    temp_dir = tempfile.mkdtemp(prefix="agni_scan_")
+    temp_dir = tempfile.mkdtemp(prefix="aegis_scan_")
     
     # Determine filename from URL or use default
     filename = os.path.basename(parsed.path) or "archive.zip"

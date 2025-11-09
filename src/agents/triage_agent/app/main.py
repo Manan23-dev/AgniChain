@@ -22,7 +22,7 @@ app = FastAPI(title="Triage Agent")
 
 # Environment variables
 GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
-FIRESTORE_COLLECTION = os.getenv("FIRESTORE_COLLECTION", "agni_findings")
+FIRESTORE_COLLECTION = os.getenv("FIRESTORE_COLLECTION", "aegis_findings")
 GITHUB_OWNER = os.getenv("GITHUB_OWNER")
 GITHUB_REPO = os.getenv("GITHUB_REPO")
 

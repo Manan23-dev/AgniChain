@@ -23,8 +23,8 @@ logger = logging.getLogger(__name__)
 
 # Environment variables
 GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
-FIRESTORE_COLLECTION = os.getenv("FIRESTORE_COLLECTION", "agni_findings")
-PUBSUB_TOPIC = os.getenv("PUBSUB_TOPIC", "agni-scan-requests")
+FIRESTORE_COLLECTION = os.getenv("FIRESTORE_COLLECTION", "aegis_findings")
+PUBSUB_TOPIC = os.getenv("PUBSUB_TOPIC", "aegis-scan-requests")
 SAMPLE_MODE = os.getenv("SAMPLE_MODE", "false").lower() == "true"
 
 

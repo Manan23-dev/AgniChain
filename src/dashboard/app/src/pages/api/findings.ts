@@ -29,7 +29,7 @@ export default async function handler(
 
   try {
     const collection = firestore.collection(
-      process.env.FIRESTORE_COLLECTION || "agni_findings"
+      process.env.FIRESTORE_COLLECTION || "aegis_findings"
     );
 
     // Fetch latest 50 records
